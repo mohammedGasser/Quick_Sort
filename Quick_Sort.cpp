@@ -3,7 +3,7 @@ using namespace std;
 int arr[] = { 3,1,0,2,5,4};
 void swap1(int*c,int*b){
     int temp=*b;
-    *b=*c;
+    *b=*c; 
 	*c=temp;
 }
 int partition1(int arr[], int l, int h)
